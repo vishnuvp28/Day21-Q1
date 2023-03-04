@@ -1,0 +1,73 @@
+
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.left{
+    margin:10px;
+    padding:5px;
+    /* display:grid; */
+    display:flex;
+    display:inline;
+    align-items: left;
+    justify-content: left;
+}
+
+.right{
+    margin:10px;
+    padding:5px;
+    display:grid;
+    display:flex;
+    position: relative;
+    justify-content:right;
+    align-items: right;
+    display:inline;
+}
+
+.kutty{
+    display:grid;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kural{
+    display:grid;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    display:grid;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(to left,black,rgb(41, 61, 3) ,black);
+    background-color: black;
+    color:white;
+    margin:5px;
+    padding:15px;
+    padding-bottom: 20px;
+}
+
+textarea{
+    background-color: black;
+    border:2px solid black;
+    box-shadow:  0 0 10px rgb(243, 243, 30);
+    color:bisque;
+    width:100%
+    
+    
+}
+ 
+img{
+    height:100px;
+    width:100px;
+}
